@@ -70,5 +70,61 @@
             "type": "composition"
           }
         }
+      },
+      "sizing": {
+        "small": {
+          "value": "$sizing.base / 1.2",
+          "type": "sizing"
+        },
+        "xmedium": {
+          "value": "$sizing.small * 2",
+          "type": "sizing"
+        },
+        "xsmall": {
+          "value": "$sizing.base / 1.5",
+          "type": "sizing"
+        },
+        "xxsmall": {
+          "value": "$sizing.base / 3",
+          "type": "sizing"
+        },
+        "infographic": {
+          "large": {
+            "value": "88",
+            "type": "sizing"
+          },
+          "regular": {
+            "value": "56",
+            "type": "sizing"
+          }
+        },
+        "xxxsmall": {
+          "value": "$sizing.base / 6",
+          "type": "sizing"
+        },
+        "base": {
+          "value": "24",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "$sizing.base * 1.5 - $sizing.xxxsmall",
+          "type": "sizing"
+        },
+        "xxmedium": {
+          "value": "$sizing.base * 2",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "$sizing.base * 2  + {sizing.xsmall}",
+          "type": "sizing"
+        },
+        "mid-large": {
+          "value": "$sizing.base * 3",
+          "type": "sizing"
+        },
+        "xlarge": {
+          "value": "$sizing.base * 4",
+          "type": "sizing"
+        }
       }
 }
