@@ -1,7 +1,8 @@
 {
   "tokenSetOrder": [
     "MUI",
-    "Focus",
-    "UoA global"
+    "INC",
+    "Other",
+    "PenCS"
   ]
 }

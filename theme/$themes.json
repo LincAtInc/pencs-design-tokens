@@ -1,79 +1,12 @@
 [
   {
-    "id": "32a628d5876cab6714e9a70783e572c6dbf20ac0",
-    "name": "UoA",
-    "selectedTokenSets": {
-      "MUI": "source",
-      "UoA global": "enabled",
-      "Focus": "disabled"
-    },
-    "$figmaStyleReferences": {
-      "colors.brand.white": "S:8a0cbe8ef71e7f338e7a2225f7156368cb546718,",
-      "colors.brand.UoAred": "S:47b7f4876b638aec5fafd06d17204add6a905f92,",
-      "colors.brand.black": "S:f8839e4873d8aeef39f6385ccd32784b51d50715,",
-      "colors.brand.UoAnavy": "S:ebe773287cbe331b1714684314e571688a455dff,",
-      "colors.brand.UoAMidBlue": "S:6fd7f728f190222e342fe90dbb9e0e70ca538d6c,",
-      "colors.digi.UoABlueDigi": "S:4da09e1b0745fdf71f788e0ac609a0a63da2bbd4,",
-      "colors.digi.UoAPaleBlueDigi": "S:d202e9eb373a15d773f30acf2084b38d86d694d3,",
-      "colors.digi.ButtonHollowLightHoverWeb": "S:deb5db4e081dfd700df02f770542972fab38d4d3,",
-      "colors.digi.MediaObjectBackgroundWeb": "S:6fb44a90234b36dd7b4aa41c3f21690db9263114,",
-      "colors.digi.ButtonRedHover": "S:8500941ae42f829caa48f1869c9f7a3499ee3a1d,",
-      "colors.digi.UoAGreyDigi": "S:1e41d44f05570d5b9508a321f1e16239ebeb8665,",
-      "colors.Web.Dark red button seondary hover (web) #AA0000": "S:f6e60489ab46c7ccfa93964c941f72cab01893e8,",
-      "colors.Web.Blue button primary (web) #1779BA": "S:91700fcc62371aaa640134524e9e896e844cfc9d,",
-      "colors.Web.Darker blue button primary hover (web) #14679E": "S:ae0e3a552d4aabce078c7ed79c26db00e6260fdf,",
-      "colors.Web.Dark blue button warning hover (web) #003C69": "S:dce796ee41766496dccdc44ee0a16c112a1bb23e,",
-      "colors.Web.Darker blue button success hover (web) #a0b6cf": "S:699427993fb0bdf6efcd08cafa3a60e2d4205e49,",
-      "colors.Web.Light blue button success (web) #DDE5EE": "S:4f2c301ac51ef0035f39322903e487d82cb43827,",
-      "colors.Web.Light blue promo block (web) #E3F3FF": "S:a8f889aba4d516aa2465d21fda4a6ca46ae3dfdb,",
-      "colors.Web.Dark grey button alert hover (web) #525252": "S:4dd85e5e91da903644dc302a29a066f1f1d1a023,",
-      "colors.Web.Dark grey button alert (web) #666666": "S:df45907c77d4f019fdc9a8534b828c209d76c3ff,",
-      "colors.Web.Light gray button hollow light hover (web) #CACACA": "S:71ff6737d5a0c2b07bd579e4464c82e577f9ecbe,",
-      "colors.Web.Light grey media object, tabs (web) #F5F5F5": "S:dcc6d20353f0dc3bc6ccfba28df8c7dae606d619,",
-      "colors.Web.Light grey tables (web) #F2F2F2": "S:314ced4d696e42b184903b53915e4c6941c3e79b,",
-      "colors.Web.Light grey tables (web) #F9F9F9": "S:3af2275eeaa630661a736e968a6a66de3f1b8f6f,",
-      "colors.Web.Extra light grey tabs hover #FAFAFA": "S:c276a6d18ccf79d170df92a8361c9fc3127392cb,",
-      "Light.Primary.Main": "S:23f436d8ef436dd6c290d7dc7fa0fb23a479f7f4,",
-      "desktop.heading.H1": "S:4376a77c332d320ea03182bbfd97c8089c722ae2,",
-      "desktop.heading.H2": "S:5cc57eb22161f7b825400190ca4122b2b2a07ead,",
-      "desktop.heading.H3": "S:ba780d9dd53a62635d9b5b319e75d237250c9eeb,",
-      "desktop.heading.H4": "S:7fc60502e5b560edb88f328ced0988a333c11696,",
-      "desktop.heading.H5": "S:ba3a9b279c3e5a6d9294df045fd6609fc4c02598,",
-      "desktop.heading.H5-medium": "S:642ef4cc51c7464bfe8c3afd4868792b4f2a8a3a,",
-      "desktop.heading.H6": "S:b4a8d1eb4a89b2704ceae1e20fdccd372473b7fd,",
-      "desktop.heading.Subtitle": "S:dac556b6941ed11cc33aa8037a7831821577578d,",
-      "desktop.Body.Regular": "S:6d2cc66efea4a5be6e25dd80d0b063bb8e25bebf,",
-      "desktop.Body.Small": "S:df2a6edc39228b7b51af636522faa45d7d096d86,",
-      "desktop.Body.RegularBold": "S:dda48e57da5fddd82cdb2663e4624349c959d895,",
-      "desktop.Body.RegularMedium": "S:4a49af27a73f297f12a4a09dcbd2d8bc019582a4,",
-      "mobile.heading.H1": "S:6b32b749a39ad708f5d9311c33eeebd269ad3071,",
-      "mobile.heading.H2": "S:915f4e4032a0127ccc2d6ca34d36fc9dfad3d658,",
-      "mobile.heading.H3": "S:5b50c235c3749fcc36ea5c5fb3d56a6f912c96e6,",
-      "mobile.heading.H5": "S:62081fffcfff89651013128713b007483f5678bf,",
-      "mobile.heading.H4": "S:af67b0bee032e3463ec28b8a4ecea7c28bbe5a09,",
-      "mobile.heading.H6": "S:6c08dc28ff7890d725110bf47ab6e25ff0a9f507,",
-      "mobile.heading.Subtitle": "S:c317b8ad7fc44e233bf598235d9288a391a0d721,",
-      "mobile.Body.Regular": "S:affdf4dac9f199ee228c233bc370a3ffb7ec9d44,",
-      "mobile.Body.RegularBold": "S:fba58dd3a86e71b9726c879be926cfce1293c84d,",
-      "mobile.Body.RegularMedium": "S:baf4c19e7089906a12f9b364b6a3fb296c5be835,",
-      "mobile.Body.Small": "S:3166d4fd758ef8b75a40784be3f0e81807db35e6,",
-      "Headings.Page Title - Bold - 52|57.2 - #FFFFFF": "S:f39a1945c8893ff3e7ccb1c9266288d48c7c09c5,",
-      "Headings.Page Title (mob) - Bold - 42|46.2 - #FFFFFF": "S:dcac33839af31769805d8b5cda24b625360ca059,",
-      "label-medium": "S:11bfaa2b395e3b24e7f19bf3f29f7bcc7deedb7f,",
-      "label-regular": "S:51481ffb765600246364abb909536c00503fd24f,",
-      "label-large": "S:8f39d80e01e9d1801111c39afe92bd6361a6895a,",
-      "label-xlarge": "S:ccb6ca230da06963426b958b968287dd6a8dd176,",
-      "Link": "S:4e10751806e2e35cd62c8611b0844269bec6f957,",
-      "test": "S:9aa7ca224859b2b822f4b690fd6bb5cb69388d4a,"
-    }
-  },
-  {
     "id": "9a57b1c2fda6618573ee1c08d4969daca1b88a1d",
     "name": "MUI",
     "selectedTokenSets": {
       "MUI": "enabled",
-      "UoA global": "disabled",
-      "Focus": "disabled"
+      "PenCS": "disabled",
+      "INC": "disabled",
+      "Other": "disabled"
     },
     "$figmaStyleReferences": {
       "Light.Text.Primary": "S:7e2d55b40b54c3620e0fee2a9659fa404f5789ba,",
@@ -535,15 +468,14 @@
     }
   },
   {
-    "id": "7b6f1db0d7a721bf08b4491664f76f8088c37086",
-    "name": "Focus",
+    "id": "de5e00643705175b8ccc3f774ab85dee8dd219e4",
+    "name": "PenCS",
     "selectedTokenSets": {
       "MUI": "source",
-      "UoA global": "disabled",
-      "Focus": "enabled"
+      "PenCS": "enabled",
+      "INC": "source",
+      "Other": "disabled"
     },
-    "$figmaStyleReferences": {
-      "Light.Primary.Main": "S:ae37e4b4aaf99d276399045f7f8e6c3958ac1c96,"
-    }
+    "$figmaStyleReferences": {}
   }
 ]
