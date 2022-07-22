@@ -5,6 +5,13 @@
         "value": "#ff00ff",
         "type": "color"
       }
+    },
+    "Secondary": {
+      "Main": {
+        "value": "#ffff00",
+        "type": "color",
+        "description": "Reflects the secondary.main variable from the theme object"
+      }
     }
   }
 }
