@@ -42,5 +42,33 @@
             "type": "sizing"
           }
         }
+      },
+      "autoLayout": {
+        "grid": {
+          "small": {
+            "value": {
+              "paddingLeft": "{sizing.base}",
+              "paddingRight": "{sizing.base}",
+              "itemSpacing": "{sizing.xsmall}"
+            },
+            "type": "composition"
+          },
+          "medium": {
+            "value": {
+              "paddingLeft": "{sizing.xmedium}",
+              "paddingRight": "{sizing.xmedium}",
+              "itemSpacing": "{sizing.xsmall}"
+            },
+            "type": "composition"
+          },
+          "large": {
+            "value": {
+              "paddingLeft": "{sizing.xlarge}",
+              "paddingRight": "{sizing.xlarge}",
+              "itemSpacing": "{sizing.medium}"
+            },
+            "type": "composition"
+          }
+        }
       }
 }
