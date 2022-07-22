@@ -1,4 +1,12 @@
 {
+    "AspectRatio4_3Width": {
+        "value": "400",
+        "type": "sizing"
+      },
+      "AspectRatio4_3Height": {
+        "value": "300",
+        "type": "sizing"
+      },
     "breakpoint": {
         "small": {
           "min": {
