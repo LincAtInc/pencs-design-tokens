@@ -475,5 +475,15 @@
       "INC": "source"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "7a247649e10230c25b724bf357c0f0474eeb243e",
+    "name": "INC",
+    "selectedTokenSets": {
+      "MUI": "enabled",
+      "INC": "enabled",
+      "PenCS": "disabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
