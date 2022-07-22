@@ -1,0 +1,10 @@
+{
+  "Light": {
+    "Primary": {
+      "Main": {
+        "value": "#ff00ff",
+        "type": "color"
+      }
+    }
+  }
+}
