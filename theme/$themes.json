@@ -5,8 +5,7 @@
     "selectedTokenSets": {
       "MUI": "enabled",
       "PenCS": "disabled",
-      "INC": "disabled",
-      "Other": "disabled"
+      "INC": "disabled"
     },
     "$figmaStyleReferences": {
       "Light.Text.Primary": "S:7e2d55b40b54c3620e0fee2a9659fa404f5789ba,",
@@ -473,8 +472,7 @@
     "selectedTokenSets": {
       "MUI": "source",
       "PenCS": "enabled",
-      "INC": "source",
-      "Other": "disabled"
+      "INC": "source"
     },
     "$figmaStyleReferences": {}
   }
