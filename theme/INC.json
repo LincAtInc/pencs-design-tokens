@@ -1,138 +1,138 @@
 {
-    "AspectRatio4_3Width": {
-        "value": "400",
+  "AspectRatio4_3Width": {
+    "value": "400",
+    "type": "sizing"
+  },
+  "AspectRatio4_3Height": {
+    "value": "300",
+    "type": "sizing"
+  },
+  "breakpoint": {
+    "small": {
+      "min": {
+        "value": "320",
         "type": "sizing"
       },
-      "AspectRatio4_3Height": {
-        "value": "300",
+      "actual": {
+        "value": "375",
         "type": "sizing"
       },
-    "breakpoint": {
-        "small": {
-          "min": {
-            "value": "320",
-            "type": "sizing"
-          },
-          "actual": {
-            "value": "375",
-            "type": "sizing"
-          },
-          "max": {
-            "value": "767",
-            "type": "sizing"
-          }
-        },
-        "medium": {
-          "min": {
-            "value": "768",
-            "type": "sizing"
-          },
-          "actual": {
-            "value": "768",
-            "type": "sizing"
-          },
-          "max": {
-            "value": "991",
-            "type": "sizing"
-          }
-        },
-        "large": {
-          "min": {
-            "value": "1200",
-            "type": "sizing"
-          },
-          "max": {
-            "value": "1600",
-            "type": "sizing"
-          },
-          "actual": {
-            "value": "1440",
-            "type": "sizing"
-          }
-        }
-      },
-      "autoLayout": {
-        "grid": {
-          "small": {
-            "value": {
-              "paddingLeft": "{sizing.base}",
-              "paddingRight": "{sizing.base}",
-              "itemSpacing": "{sizing.xsmall}"
-            },
-            "type": "composition"
-          },
-          "medium": {
-            "value": {
-              "paddingLeft": "{sizing.xmedium}",
-              "paddingRight": "{sizing.xmedium}",
-              "itemSpacing": "{sizing.xsmall}"
-            },
-            "type": "composition"
-          },
-          "large": {
-            "value": {
-              "paddingLeft": "{sizing.xlarge}",
-              "paddingRight": "{sizing.xlarge}",
-              "itemSpacing": "{sizing.medium}"
-            },
-            "type": "composition"
-          }
-        }
-      },
-      "sizing": {
-        "small": {
-          "value": "$sizing.base / 1.2",
-          "type": "sizing"
-        },
-        "xmedium": {
-          "value": "$sizing.small * 2",
-          "type": "sizing"
-        },
-        "xsmall": {
-          "value": "$sizing.base / 1.5",
-          "type": "sizing"
-        },
-        "xxsmall": {
-          "value": "$sizing.base / 3",
-          "type": "sizing"
-        },
-        "infographic": {
-          "large": {
-            "value": "88",
-            "type": "sizing"
-          },
-          "regular": {
-            "value": "56",
-            "type": "sizing"
-          }
-        },
-        "xxxsmall": {
-          "value": "$sizing.base / 6",
-          "type": "sizing"
-        },
-        "base": {
-          "value": "24",
-          "type": "sizing"
-        },
-        "medium": {
-          "value": "$sizing.base * 1.5 - $sizing.xxxsmall",
-          "type": "sizing"
-        },
-        "xxmedium": {
-          "value": "$sizing.base * 2",
-          "type": "sizing"
-        },
-        "large": {
-          "value": "$sizing.base * 2  + {sizing.xsmall}",
-          "type": "sizing"
-        },
-        "mid-large": {
-          "value": "$sizing.base * 3",
-          "type": "sizing"
-        },
-        "xlarge": {
-          "value": "$sizing.base * 4",
-          "type": "sizing"
-        }
+      "max": {
+        "value": "767",
+        "type": "sizing"
       }
+    },
+    "medium": {
+      "min": {
+        "value": "768",
+        "type": "sizing"
+      },
+      "actual": {
+        "value": "768",
+        "type": "sizing"
+      },
+      "max": {
+        "value": "991",
+        "type": "sizing"
+      }
+    },
+    "large": {
+      "min": {
+        "value": "1200",
+        "type": "sizing"
+      },
+      "max": {
+        "value": "1600",
+        "type": "sizing"
+      },
+      "actual": {
+        "value": "1440",
+        "type": "sizing"
+      }
+    }
+  },
+  "autoLayout": {
+    "grid": {
+      "small": {
+        "value": {
+          "paddingLeft": "{sizing.base}",
+          "paddingRight": "{sizing.base}",
+          "itemSpacing": "{sizing.xsmall}"
+        },
+        "type": "composition"
+      },
+      "medium": {
+        "value": {
+          "paddingLeft": "{sizing.xmedium}",
+          "paddingRight": "{sizing.xmedium}",
+          "itemSpacing": "{sizing.xsmall}"
+        },
+        "type": "composition"
+      },
+      "large": {
+        "value": {
+          "paddingLeft": "{sizing.xlarge}",
+          "paddingRight": "{sizing.xlarge}",
+          "itemSpacing": "{sizing.medium}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "sizing": {
+    "small": {
+      "value": "$sizing.base / 1.2",
+      "type": "sizing"
+    },
+    "xmedium": {
+      "value": "$sizing.small * 2",
+      "type": "sizing"
+    },
+    "xsmall": {
+      "value": "$sizing.base / 1.5",
+      "type": "sizing"
+    },
+    "xxsmall": {
+      "value": "$sizing.base / 3",
+      "type": "sizing"
+    },
+    "infographic": {
+      "large": {
+        "value": "88",
+        "type": "sizing"
+      },
+      "regular": {
+        "value": "56",
+        "type": "sizing"
+      }
+    },
+    "xxxsmall": {
+      "value": "$sizing.base / 6",
+      "type": "sizing"
+    },
+    "base": {
+      "value": "24",
+      "type": "sizing"
+    },
+    "medium": {
+      "value": "$sizing.base * 1.5 - $sizing.xxxsmall",
+      "type": "sizing"
+    },
+    "xxmedium": {
+      "value": "$sizing.base * 2",
+      "type": "sizing"
+    },
+    "large": {
+      "value": "$sizing.base * 2  + {sizing.xsmall}",
+      "type": "sizing"
+    },
+    "mid-large": {
+      "value": "$sizing.base * 3",
+      "type": "sizing"
+    },
+    "xlarge": {
+      "value": "$sizing.base * 4",
+      "type": "sizing"
+    }
+  }
 }
