@@ -2,13 +2,13 @@
   "Light": {
     "Primary": {
       "Main": {
-        "value": "#ff00ff",
+        "value": "#0058D5",
         "type": "color"
       }
     },
     "Secondary": {
       "Main": {
-        "value": "#ffff00",
+        "value": "#AF1917",
         "type": "color",
         "description": "Reflects the secondary.main variable from the theme object"
       }
